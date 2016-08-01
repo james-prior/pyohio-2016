@@ -1,0 +1,19 @@
+[user]
+	name = John Doe
+	#email = null@void.com
+	email = john.doe@example.com
+
+[core]
+	autocrlf = input
+	safecrlf = false
+
+[alias]
+        co = checkout
+        ci = commit
+        st = status
+        br = branch
+        hist = log --pretty=format:\"%h %ad %s%d [%an]\" --graph --date=short
+        hist = log --pretty=format:\"%h %ad %s%d [%an]\" --graph --date=iso
+        type = cat-file -t
+        dump = cat-file -p
+
