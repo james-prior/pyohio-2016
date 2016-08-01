@@ -16,4 +16,5 @@
         hist = log --pretty=format:\"%h %ad %s%d [%an]\" --graph --date=iso
         type = cat-file -t
         dump = cat-file -p
+        df = diff --color
 
